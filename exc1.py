@@ -8,8 +8,6 @@ while True:
         break
     elif -50 < temp < 50:
         temp_list.append(temp)
-    else:
-        continue
 # print (temp_list) -- to check
 # exc.c
 temp_list.extend([-20, 39.1, 18.5])
